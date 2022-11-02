@@ -1,14 +1,14 @@
 //prime number or not
+let num = 5;
 let count=0;
-for(let i=0;i<=4;i++){
-    if(4%i==0){
-        count++;
-    }
+for(let i=1;i<=num;i++){
+    if(num%i==0)
+        count++
 }
 if(count==2){
-    console.log("Yes");
+    console.log("Prime");
 }else{
-    console.log("No");
+    console.log("Not a Prime");
 }
 
 
